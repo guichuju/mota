@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="13" height="13" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Event01-Wall01" tilewidth="32" tileheight="32">
+  <image source="../魔塔吧优质标准化大素材库/Characters/Event01-Wall01.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="17" name="Other09" tilewidth="32" tileheight="32">
+  <image source="../魔塔吧优质标准化大素材库/Characters/Other09.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="33" name="Event01-Door01" tilewidth="32" tileheight="32">
+  <image source="../魔塔吧优质标准化大素材库/Characters/Event01-Door01.png" width="128" height="128"/>
+ </tileset>
+ <layer name="块层 1" width="13" height="13">
+  <data encoding="base64" compression="zlib">
+   eJwTZGBgEBzFo3gQYwDrKgs6
+  </data>
+ </layer>
+ <layer name="wall" width="13" height="13">
+  <data encoding="base64" compression="zlib">
+   eJydUEEOAAAEav3/0e5Gic1sKIkA+MgkPtzqTu8rDFvdMBPHNHN3Nq1Om/Lg4gnEzoXT/aM4U0yaBfikALc=
+  </data>
+ </layer>
+ <layer name="main" width="13" height="13">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg6QHEAzSfWblq5kRrmoptB6/CkFgAAIu8A6A==
+  </data>
+ </layer>
+ <layer name="块层 4" width="13" height="13">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BwAwACpAAB
+  </data>
+ </layer>
+</map>
