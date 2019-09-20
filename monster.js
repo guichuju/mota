@@ -1,0 +1,5 @@
+const monster = {
+    1: {
+        
+    }
+}

@@ -8,10 +8,162 @@
  </tileset>
  <tileset firstgid="33" name="Event01-Door01" tilewidth="32" tileheight="32">
   <image source="../魔塔吧优质标准化大素材库/Characters/Event01-Door01.png" width="128" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="id" value="1"/>
+    <property name="type" value="door"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="id" value="2"/>
+    <property name="type" value="door"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="id" value="3"/>
+    <property name="type" value="door"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="id" value="4"/>
+    <property name="type" value="door"/>
+   </properties>
+  </tile>
  </tileset>
- <layer name="块层 1" width="13" height="13">
+ <tileset firstgid="49" name="经典魔塔游戏全套素材-地板看起来(up_floor)_爱给网_aigei_com" tilewidth="32" tileheight="32">
+  <image source="../魔塔吧优质标准化大素材库/other/经典魔塔游戏全套素材-地板看起来(up_floor)_爱给网_aigei_com.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="stairs"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="50" name="Item01-01" tilewidth="32" tileheight="32">
+  <image source="../魔塔吧优质标准化大素材库/Characters/Item01-01.png" width="128" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="id" value="1"/>
+    <property name="type" value="item"/>
+    <property name="use" value="key"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="id" value="2"/>
+    <property name="type" value="item"/>
+    <property name="use" value="key"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="id" value="3"/>
+    <property name="type" value="item"/>
+    <property name="use" value="key"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="id" value="4"/>
+    <property name="type" value="item"/>
+    <property name="use" value="key"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="66" name="Item01-Gem01" tilewidth="32" tileheight="32">
+  <image source="../魔塔吧优质标准化大素材库/Characters/Item01-Gem01.png" width="128" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="id" value="1"/>
+    <property name="type" value="item"/>
+    <property name="use" value="diamond"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="id" value="2"/>
+    <property name="type" value="item"/>
+    <property name="use" value="diamond"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="82" name="Monster01-01" tilewidth="32" tileheight="32">
+  <image source="../魔塔吧优质标准化大素材库/Characters/Monster01-01.png" width="128" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="id" value="1"/>
+    <property name="type" value="monster"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="id" value="2"/>
+    <property name="type" value="monster"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="98" name="Monster03-01" tilewidth="32" tileheight="32">
+  <image source="../魔塔吧优质标准化大素材库/Characters/Monster03-01.png" width="128" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="id" value="3"/>
+    <property name="type" value="monster"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="114" name="Monster06-01" tilewidth="32" tileheight="32">
+  <image source="../魔塔吧优质标准化大素材库/Characters/Monster06-01.png" width="128" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="id" value="4"/>
+    <property name="type" value="monster"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="130" name="Monster02-01" tilewidth="32" tileheight="32">
+  <image source="../魔塔吧优质标准化大素材库/Characters/Monster02-01.png" width="128" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="id" value="5"/>
+    <property name="type" value="monster"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="id" value="6"/>
+    <property name="type" value="monster"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="146" name="Actor01-Braver01" tilewidth="32" tileheight="32">
+  <image source="../魔塔吧优质标准化大素材库/Characters/Actor01-Braver01.png" width="128" height="132"/>
+ </tileset>
+ <tileset firstgid="162" name="Item01-05" tilewidth="32" tileheight="32">
+  <image source="../魔塔吧优质标准化大素材库/Characters/Item01-05.png" width="128" height="128"/>
+  <tile id="14">
+   <properties>
+    <property name="type" value="item"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="178" name="Item01-02" tilewidth="32" tileheight="32">
+  <image source="../魔塔吧优质标准化大素材库/Characters/Item01-02.png" width="128" height="128"/>
+ </tileset>
+ <layer name="bg" width="13" height="13">
   <data encoding="base64" compression="zlib">
    eJwTZGBgEBzFo3gQYwDrKgs6
+  </data>
+ </layer>
+ <layer name="background" width="13" height="13">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BwAwACpAAB
+  </data>
+ </layer>
+ <layer name="main" width="13" height="13">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAPGELpICAOg9K0AJuQ2IpIbCcgNsKjrwmLmDOaeehAkUQ5bPaD1CUBcRGUxgba8NhDiv2UmoHOh4WNERqNDND9BNKzAU3tJCQ2KF1sZqAsfQAAHgcLkw==
   </data>
  </layer>
  <layer name="wall" width="13" height="13">
@@ -19,14 +171,7 @@
    eJydUEEOAAAEav3/0e5Gic1sKIkA+MgkPtzqTu8rDFvdMBPHNHN3Nq1Om/Lg4gnEzoXT/aM4U0yaBfikALc=
   </data>
  </layer>
- <layer name="main" width="13" height="13">
-  <data encoding="base64" compression="zlib">
-   eJxjYBg6QHEAzSfWblq5kRrmoptB6/CkFgAAIu8A6A==
-  </data>
- </layer>
- <layer name="块层 4" width="13" height="13">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2BwAwACpAAB
-  </data>
- </layer>
+ <objectgroup name="对象层 1">
+  <object name="player" x="193" y="353" width="31" height="31"/>
+ </objectgroup>
 </map>
