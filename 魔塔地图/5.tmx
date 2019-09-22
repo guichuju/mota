@@ -157,6 +157,18 @@
  <tileset firstgid="178" name="Item01-02" tilewidth="32" tileheight="32">
   <image source="../魔塔吧优质标准化大素材库/Characters/Item01-02.png" width="128" height="128"/>
  </tileset>
+ <tileset firstgid="194" name="经典魔塔游戏全套素材-落楼(down_floor)_爱给网_aigei_com" tilewidth="32" tileheight="32">
+  <image source="../魔塔吧优质标准化大素材库/other/经典魔塔游戏全套素材-落楼(down_floor)_爱给网_aigei_com.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="195" name="Monster05-01" tilewidth="32" tileheight="32">
+  <image source="../魔塔吧优质标准化大素材库/Characters/Monster05-01.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="211" name="NPC01-01" tilewidth="32" tileheight="32">
+  <image source="../魔塔吧优质标准化大素材库/Characters/NPC01-01.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="227" name="Event01-Other03" tilewidth="32" tileheight="32">
+  <image source="../魔塔吧优质标准化大素材库/Characters/Event01-Other03.png" width="128" height="128"/>
+ </tileset>
  <layer name="bg" width="13" height="13">
   <data encoding="base64" compression="zlib">
    eJwTZGBgEBzFo3gQYwDrKgs6
@@ -167,17 +179,14 @@
    eJxjYBgFo2BwAwACpAAB
   </data>
  </layer>
- <layer name="main" width="13" height="13">
+ <layer name="main" width="13" height="13" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYCAPGELpICAOg9K0AJuQ2IpIbCcgNsKjrwmLmDOaeehAkUQ5bPaD1CUBcRGUxgba8NhDiv2UmoHOh4WNERqNDND9BNKzAU3tJCQ2KF1sZqAsfQAAHgcLkw==
+   eJxjYCAfGCOxHwPxEyB+iiR2GU39JihthMM8mPhmEt3RhkVMEY2vREAeBIrQ5MKQ5JpIdBMuADMziAQ9ijjYhORgIAmNX4RVFQLA3AaLDycoDYu/SUhqDZHUBjGgxi2yHw8RsBMfAAC4DQ3W
   </data>
  </layer>
  <layer name="wall" width="13" height="13">
   <data encoding="base64" compression="zlib">
-   eJydUEEOAAAEav3/0e5Gic1sKIkA+MgkPtzqTu8rDFvdMBPHNHN3Nq1Om/Lg4gnEzoXT/aM4U0yaBfikALc=
+   eJxjYmBgYCIDkwJG9YzqQdZDKgYAgiQAYQ==
   </data>
  </layer>
- <objectgroup name="对象层 1">
-  <object name="player" x="193" y="353" width="31" height="31"/>
- </objectgroup>
 </map>
